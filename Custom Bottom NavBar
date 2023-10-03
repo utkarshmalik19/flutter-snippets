@@ -11,12 +11,11 @@ class BottomNavBar extends StatefulWidget {
 class _BottomNavBarState extends State<BottomNavBar> {
   int pageIndex = 0;
 
-  // final pages = [
-  //   const SignInPage(),
-  //   const SignInPage(),
-  //   const SignInPage(),
-  //   const SignInPage(),
-  // ];
+   final pages = [
+     const FirstPage(),
+     const SecondPage(),
+     const ThirdPage(),
+   ];
   @override
   Widget build(BuildContext context) {
     return Container(
