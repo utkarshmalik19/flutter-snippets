@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//App constants included so keep in mind
+//This widget dependant on App constants class(custom)
 class CustomButton extends StatelessWidget {
 final Function()? onPressed;
   final String buttonText;
